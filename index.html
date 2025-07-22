@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Gemini Image Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎨 Gemini Design Generator</h1>
+  <input type="file" id="upload" accept="image/*">
+  <canvas id="canvas"></canvas>
+  <div class="controls">
+    <button id="crop">Crop & Generate</button>
+    <button id="reset">Reset</button>
+  </div>
+  <div id="spinner" class="hidden">🌀 Đang xử lý...</div>
+  <div id="result"></div>
+
+  <script src="cropper.js"></script>
+  <script src="gemini-api.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

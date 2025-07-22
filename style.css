@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    text-align: center;
+    background: #f5f5f5;
+  }
+  canvas {
+    margin-top: 20px;
+    border: 2px dashed #999;
+    max-width: 100%;
+  }
+  .controls {
+    margin: 20px 0;
+  }
+  button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  #spinner {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .hidden {
+    display: none;
+  }
+  img#outputImage {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
