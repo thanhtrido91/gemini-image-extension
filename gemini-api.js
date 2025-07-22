@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyAWA0uzJeoDpepfL9OdhU7pIdpqZvBG208";
+const GEMINI_API_KEY = "api key";
 const GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent";
 
 async function generateWithGemini(base64Image) {
